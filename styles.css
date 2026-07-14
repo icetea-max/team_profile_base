@@ -31,7 +31,8 @@ footer {
 
 /* ===========================================
    Team Members Styles (Person A)
-   .members-grid {
+   =========================================== */
+ .members-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
@@ -70,9 +71,6 @@ footer {
     color: #666;
     font-size: 14px;
 }
-   =========================================== */
-
-
 /* ===========================================
    Skills Section Styles (Person B)
    =========================================== */
@@ -155,13 +153,12 @@ footer {
 }
 
 .project-btn:hover {
-    opacity: 0.9;
+    opacity: 0.9
 }
 
 
 /* ===========================================
    Contact Form Styles (Person D)
-   =========================================== */
    =========================================== */
 .contact-form {
     max-width: 500px;
